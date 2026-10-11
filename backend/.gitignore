@@ -1,0 +1,22 @@
+
+# Ignore everything by default
+*
+
+# Include this ignore file
+!.gitignore
+
+# Include Python source files
+!*.py
+
+# Keep environment variables and virtual environments private
+.env
+.venv/
+venv/
+__pycache__/
+
+# Keep uploads private
+uploads/
+
+# Ignore Python cache files
+*.pyc
+test_gemini.py
